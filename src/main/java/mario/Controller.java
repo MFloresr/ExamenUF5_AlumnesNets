@@ -88,7 +88,6 @@ public class Controller {
         try {
             org.jsoup.nodes.Document doc = Jsoup.connect("http://192.168.0.19:4567/resultat").get();
             Elements noms = doc.select("resultat");
-            Elements
         } catch (IOException e) {
             e.printStackTrace();
         }
